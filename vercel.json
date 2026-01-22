@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "name": "ai-app-builder",
+  "projects": [
+    {
+      "name": "app-builder-frontend",
+      "path": "frontend"
+    },
+    {
+      "name": "app-builder-backend",
+      "path": "backend"
+    }
+  ],
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "OpenAI API key for GPT models",
+      "required": true
+    },
+    "SUPABASE_URL": {
+      "description": "Supabase project URL",
+      "required": true
+    },
+    "SUPABASE_KEY": {
+      "description": "Supabase anonymous key",
+      "required": true
+    },
+    "REACT_APP_API_URL": {
+      "description": "Backend API URL",
+      "required": true
+    }
+  }
+}
